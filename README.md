@@ -21,6 +21,3 @@ The project is live at: [https://defi-amm.vercel.app/](https://defi-amm.vercel.a
 
 ![Project Screenshot](./screenshot.png)
 
----
-
-Let me know if you need any more adjustments!
