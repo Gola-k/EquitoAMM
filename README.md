@@ -1,16 +1,26 @@
 # Decentralised Finance - Automated Market Maker Project (DeFi-AMM)
-This is the final (and largest) project in the [LearnWeb3DAO Sophmore track](https://www.learnweb3.io/tracks/sophomore); to create the smart
-contract and front-end for a DeFi exchange. This project builds upon the functionality
-from [andy-shearer/initial-coin-offering](https://github.com/andy-shearer/initial-coin-offering) and allows owners of the CryptoDevs
-token to provide liquidity for an ETH <> CD Token swap.
 
-Liquidity providers can define the initial ratio of the swap if there is no liquidity,
-and receive an ERC-20 Liquidity Pool token ([view on Etherscan](https://rinkeby.etherscan.io/token/0x5a662f00D7A1A102F45304592bBcFA8bec2d28f1))
-which can be used at any point in the future to withdraw their tokens & ETH from the exchange.
+This project is focusing on building a decentralized finance (DeFi) exchange using the Equito cross-chain protocol. It allows owners of the CryptoDevs token to provide liquidity for an ETH <> CD Token swap.
 
-This project was built using hardhat and next.js - see both README files in the relevant subdirectories 
-([hardhat](./hardhat/README.md) / [next.js](./my-app/README.md))
+## Features
+- **Liquidity Provision**: Users can add liquidity to the pool for ETH and CryptoDevs (CD) tokens. Liquidity providers are issued ERC-20 Liquidity Pool tokens, which represent their share of the pool.
+- **Initial Swap Ratio**: If no liquidity exists, liquidity providers can set the initial swap ratio between ETH and CD tokens.
+- **Liquidity Pool Tokens**: Liquidity providers receive LP tokens, which can be redeemed at any time to withdraw their ETH and CD tokens from the liquidity pool.
 
-Deployed to: https://defi-amm.vercel.app/ on the Rinkeby testnet:
-![](./screenshot.png)
+## Technologies
+- **Smart Contracts**: Developed using the Equito cross-chain protocol and deployed using Hardhat.
+- **Frontend**: Built with Next.js for a smooth and responsive user experience.
+- **Cross-Chain Support**: Deployed on Equito, enabling cross-chain asset swaps and liquidity provision.
 
+## Project Structure
+- **Hardhat**: Smart contract development and deployment tools. See the [README](./hardhat/README.md) for more details.
+- **Next.js**: Frontend interface for interacting with the DeFi exchange. See the [README](./my-app/README.md) for more details.
+
+## Deployed Project
+The project is live at: [https://defi-amm.vercel.app/](https://defi-amm.vercel.app/)
+
+![Project Screenshot](./screenshot.png)
+
+---
+
+Let me know if you need any more adjustments!
